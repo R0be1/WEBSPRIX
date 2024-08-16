@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0px;
+  font-family: Montserrat;
+  color: #404040;
+}
+
+body {
+  margin: 18px 19px;
+}
+
+.header {
+  display: flex;
+  height: 72px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444444f7;
+  border-radius: 4px;
+}
+
+.header .logo img {
+  width: 91px;
+  height: 57px;
+  margin-left: 31px;
+}
+
+.header .nav-bar {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.header .nav-bar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.header .nav-bar a:hover {
+  color: rgb(201, 196, 196);
+}
+
+#home {
+  color: #fce207;
+}
+
+#home:hover {
+  color: rgb(201, 196, 196);
+}
+
+.header .nav-bar button {
+  width: 158px;
+  height: 36px;
+  background: #fce207;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.header .nav-bar button:hover {
+  background: #ecd931;
+}
+
+.content1 {
+  position: relative;
+}
+
+.content1 img {
+  width: 100%;
+  height: auto;
+  margin-top: 18px;
+}
+
+.content1 button {
+  position: absolute;
+  top: 354px;
+  left: 30px;
+  width: 306px;
+  height: 72px;
+  background: #fce207;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.content1 button:hover {
+  background: #ecd931;
+}
+
+.content2 .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.content2 .title h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #444444f7;
+}
+#more {
+  font-size: 21px;
+  font-weight: 900;
+  color: #fce207;
+  cursor: pointer;
+}
+#more:hover {
+  color: #ecd931;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plans .plan {
+  position: relative;
+  width: 427px;
+  height: 429px;
+}
+
+.plans .plan-content {
+  position: absolute;
+  width: 226px;
+  height: 270px;
+  top: 70px;
+  left: 69px;
+}
+
+.plan-content h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.plan-content p {
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 27.01px;
+  font-weight: 600;
+}
+
+.plan-content p span {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27.01px;
+  letter-spacing: 0.06em;
+}
+
+.plan-content h2 {
+  margin-top: 20px;
+}
+
+.plan-content button {
+  width: 251px;
+  height: 47px;
+  top: 1019px;
+  left: 79px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0px;
+  background: #fce207;
+  color: white;
+  font-size: 21px;
+  font-weight: 900;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.plan-content button:hover {
+  background: #ecd931;
+}
+
+.benefits {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+
+.benefits .benefit {
+  position: relative;
+  width: 400px;
+  height: 429px;
+}
+
+.benefits .benefit-content {
+  position: absolute;
+  width: 330px;
+  height: auto;
+  left: 49px;
+  top: 100px;
+}
+
+.benefit-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.095em;
+}
+
+.benefit-content p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 21.94px;
+  letter-spacing: 0.095em;
+  margin-top: 25px;
+}
+
+.benefit .read-more {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #fce207;
+  top: 240px;
+  left: 49px;
+  cursor: pointer;
+}
+
+.benefit .read-more:hover {
+  color: #ecd931;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 311px;
+  background: #404040;
+  border-radius: 6px;
+}
+
+.footer img {
+  position: absolute;
+  width: 383px;
+  height: 264px;
+  top: 25px;
+  left: 50px;
+}
+
+.footer-info {
+  position: absolute;
+  width: 850px;
+  height: 264px;
+  border-radius: 6px;
+  background: white;
+  top: 24px;
+  left: 607px;
+}
+
+.footer-info h2 {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 28.04px;
+  letter-spacing: 0.095em;
+}
+
+.footer-info .break {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 95%;
+  height: 5px;
+  background: #fce207;
+  border-radius: 10px;
+}
+
+.contact-info {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 820px;
+  height: 123px;
+  top: 80px;
+  left: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 32.65px;
+  letter-spacing: 0.095em;
+}
+
+.contact-info .phone-numbers p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: 0.095em;
+}
+
+.contact-info .phone-numbers ul {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 21.94px;
+  letter-spacing: 0.095em;
+  margin-top: 10px;
+}
+
+.contact-info .phone-numbers li {
+  margin-top: 5px;
+}
